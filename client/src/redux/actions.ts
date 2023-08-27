@@ -1,0 +1,9 @@
+export const LOGIN_SUCCESS = '@authentication/LOGIN_SUCCESS';
+export const LOGOUT = '@authentication/LOGOUT';
+export const SAVE_LOGIN_DATA = '@authentication/SAVE_LOGIN_DATA';
+export const CLEAR_LOGIN_DATA = '@authentication/CLEAR_LOGIN_DATA';
+export const ALERT_SUCCESS = '@alert/ALERT_SUCCESS';
+export const ALERT_ERROR = '@alert/ALERT_ERROR';
+export const ALERT_INFO = '@alert/ALERT_INFO';
+export const HIDE_ALERT = '@alert/HIDE_ALERT';
+export const INIT_SOCKET = '@socket/INIT_SOCKET';
