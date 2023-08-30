@@ -91,8 +91,6 @@ export function VideoConferencePage() {
           userId: string,
           signal: string | Peer.SignalData
         }) => {
-          console.log(SocketEvent[SocketEvent.RECEIVE_SIGNAL])
-          console.log(payload.userId != loginUser?.id)
           if (!peersRef.current?.some((p) => p.peerID != payload.userId)) {
             const item = peersRef.current.find(p => p.peerID === payload.userId);
             if (item) {
